@@ -7,7 +7,16 @@
         "type": "git",
         "url": "https://github.com/michaeltp93/auth-nodejs"
     },
+    "description": "Authentication JWT system made with NodeJS using TDD, TypeScript and Jest.",
     "license": "MIT",
+    "keywords": [
+        "nodejs",
+        "typescript",
+        "jest",
+        "tdd",
+        "expressjs",
+        "jwt-authentication"
+    ],
     "scripts": {
         "dev": "ts-node-dev --transpile-only --ignore-watch node_modules src/server.ts",
         "dev:test": "NODE_ENV=test ts-node-dev --transpile-only --ignore-watch node_modules src/server.ts",
